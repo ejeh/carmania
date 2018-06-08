@@ -1,0 +1,41 @@
+{
+  "name": "Carmania",
+  "version": "1.0.0",
+  "description": "Car clinic",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "9.4.0"
+  },
+  "author": "TSS induction team1",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "compression": "^1.7.1",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "crypto": "^1.0.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "express-session": "^1.15.6",
+    "graphql": "^0.13.2",
+    "lodash": "^4.17.4",
+    "log4js": "^2.5.3",
+    "method-override": "^2.3.10",
+    "mongodb": "^2.2.26",
+    "mongojs": "^2.5.0",
+    "mongoose": "^5.0.11",
+    "mongoose-beautiful-unique-validation": "^6.0.0",
+    "morgan": "*",
+    "promise": "^7.1.1",
+    "supertest": "^3.0.0"
+  }
+}
